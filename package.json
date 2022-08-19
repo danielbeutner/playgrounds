@@ -1,0 +1,28 @@
+{
+  "name": "playgrounds",
+  "version": "1.0.0",
+  "description": "My personal playground projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "playground:create": "cd playgrounds; npm create vite@latest",
+    "playground:install": "npm install --workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/danielbeutner/playgrounds.git"
+  },
+  "keywords": [
+    "playgrounds"
+  ],
+  "author": "Daniel Beutner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielbeutner/playgrounds/issues"
+  },
+  "homepage": "https://github.com/danielbeutner/playgrounds#readme",
+  "workspaces": [
+    "playgrounds/usereducer",
+    "playgrounds/usereducer-context"
+  ]
+}
