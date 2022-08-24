@@ -23,6 +23,7 @@
   "homepage": "https://github.com/danielbeutner/playgrounds#readme",
   "workspaces": [
     "playgrounds/usereducer",
-    "playgrounds/usereducer-context"
+    "playgrounds/usereducer-context",
+    "playgrounds/web-audio-api"
   ]
 }
