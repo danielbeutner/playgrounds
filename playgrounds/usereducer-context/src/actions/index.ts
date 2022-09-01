@@ -11,9 +11,9 @@ type ActionMap<T> = {
       };
 };
 
-export const actionTypes = {
-  ...Hello.Types,
-} as const;
-
 export type Actions =
   ActionMap<Hello.ActionMap>[keyof ActionMap<Hello.ActionMap>];
+
+export const actionTypes = Object.freeze({
+  ...Hello.Types,
+});
