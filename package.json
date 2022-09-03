@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test --workspaces --if-present",
-    "playground:create": "cd playgrounds; npm create vite@latest",
-    "playground:install": "npm install --workspaces"
+    "create": "npm create vite@latest",
+    "bootstrap": "npm install --workspaces"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/danielbeutner/playgrounds#readme",
   "workspaces": [
-    "playgrounds/usereducer",
-    "playgrounds/usereducer-context",
-    "playgrounds/web-audio-api"
+    "usereducer",
+    "usereducer-context",
+    "web-audio-api"
   ]
 }
