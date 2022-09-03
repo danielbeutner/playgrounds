@@ -24,6 +24,7 @@
   "workspaces": [
     "usereducer",
     "usereducer-context",
-    "web-audio-api"
+    "web-audio-api",
+    "msw-react-storybook-jest"
   ]
 }
